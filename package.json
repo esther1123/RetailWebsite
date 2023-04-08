@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "eslintConfig": {
+    "extends": [
+      "serverless-stack"
+    ]
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.126.0",
+    "@types/aws-lambda": "^8.10.70"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-iam": "1.126.0",
+    "@aws-cdk/core": "1.126.0",
+    "@serverless-stack/cli": "0.49.0",
+    "@serverless-stack/resources": "0.49.0",
+    "typescript": "^4.4.4"
+  }
+}

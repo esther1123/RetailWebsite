@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "sst-env -- next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@awsui/components-react": "^3.0.312",
+    "@awsui/global-styles": "^1.0.9",
+    "aws-amplify": "^4.3.3",
+    "next": "11.1.2",
+    "next-transpile-modules": "^8.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@serverless-stack/static-site-env": "^0.49.0",
+    "@types/node": "^16.11.4",
+    "@types/react": "^17.0.31",
+    "eslint": "^8.1.0",
+    "typescript": "^4.4.4"
+  }
+}
